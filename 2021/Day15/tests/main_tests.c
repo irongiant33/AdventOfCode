@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
 
     CU_TestInfo tests[] = {
         {"test_part1_example", test_part1_example},
-        //{"test_part1", test_part1},
+        {"test_part1", test_part1},
         //{"test_part2_example", test_part2_example},
         //{"test_part2", test_part2},
         CU_TEST_INFO_NULL,

@@ -77,8 +77,8 @@ clean: CMakeFiles/Day15_submission.dir/clean
 # Target rules for target CMakeFiles/Day15_exe.dir
 
 # All Build rule for target.
-CMakeFiles/Day15_exe.dir/all: CMakeFiles/Day15_submission.dir/all
 CMakeFiles/Day15_exe.dir/all: CMakeFiles/Day15_common.dir/all
+CMakeFiles/Day15_exe.dir/all: CMakeFiles/Day15_submission.dir/all
 CMakeFiles/Day15_exe.dir/all: CMakeFiles/Day15_test.dir/all
 	$(MAKE) -f CMakeFiles/Day15_exe.dir/build.make CMakeFiles/Day15_exe.dir/depend
 	$(MAKE) -f CMakeFiles/Day15_exe.dir/build.make CMakeFiles/Day15_exe.dir/build
