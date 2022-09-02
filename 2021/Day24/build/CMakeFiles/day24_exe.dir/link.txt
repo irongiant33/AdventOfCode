@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/day24_exe.dir/tests/main_tests.c.o CMakeFiles/day24_exe.dir/src/day24.c.o  -o day24_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day24/build libday24_submission.so libday24_test.so libday24_common.so -lcunit 

@@ -1,0 +1,6 @@
+site_name: Advent of Code 2021
+site_url: http://aoc2021.com
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs

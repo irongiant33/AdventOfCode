@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libDayN_submission.so -o libDayN_submission.so CMakeFiles/DayN_submission.dir/src/dayN.c.o 

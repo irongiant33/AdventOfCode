@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Day11_exe.dir/tests/main_tests.c.o CMakeFiles/Day11_exe.dir/src/day11.c.o  -o Day11_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day11/build libDay11_submission.so libDay11_test.so libDay11_common.so -lcunit 

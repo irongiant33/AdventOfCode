@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libday22_submission.so -o libday22_submission.so CMakeFiles/day22_submission.dir/src/day22.c.o 

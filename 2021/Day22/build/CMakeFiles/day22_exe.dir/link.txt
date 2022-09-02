@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/day22_exe.dir/tests/main_tests.c.o CMakeFiles/day22_exe.dir/src/day22.c.o  -o day22_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day22/build libday22_submission.so libday22_test.so libday22_common.so -lcunit 

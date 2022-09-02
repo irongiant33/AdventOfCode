@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Day8_exe.dir/tests/main_tests.c.o CMakeFiles/Day8_exe.dir/src/day8.c.o  -o Day8_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day8/build libDay8_submission.so libDay8_test.so libDay8_common.so -lcunit 

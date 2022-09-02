@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libday22_test.so -o libday22_test.so CMakeFiles/day22_test.dir/tests/day22_test.c.o 

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libDay3_common.so -o libDay3_common.so CMakeFiles/Day3_common.dir/home/irongiant/AdventOfCode/2021/common/fileio.c.o CMakeFiles/Day3_common.dir/home/irongiant/AdventOfCode/2021/common/doubly_ll.c.o 

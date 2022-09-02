@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/day16_exe.dir/tests/main_tests.c.o CMakeFiles/day16_exe.dir/src/day16.c.o  -o day16_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day16/build libday16_submission.so libday16_test.so libday16_common.so -lcunit 

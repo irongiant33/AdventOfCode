@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Day13_exe.dir/tests/main_tests.c.o CMakeFiles/Day13_exe.dir/src/day13.c.o  -o Day13_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day13/build libDay13_submission.so libDay13_test.so libDay13_common.so -lcunit 

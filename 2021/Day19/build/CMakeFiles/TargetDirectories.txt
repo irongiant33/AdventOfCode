@@ -1,0 +1,6 @@
+/home/irongiant/AdventOfCode/2021/Day19/build/CMakeFiles/rebuild_cache.dir
+/home/irongiant/AdventOfCode/2021/Day19/build/CMakeFiles/day19_exe.dir
+/home/irongiant/AdventOfCode/2021/Day19/build/CMakeFiles/day19_common.dir
+/home/irongiant/AdventOfCode/2021/Day19/build/CMakeFiles/edit_cache.dir
+/home/irongiant/AdventOfCode/2021/Day19/build/CMakeFiles/day19_test.dir
+/home/irongiant/AdventOfCode/2021/Day19/build/CMakeFiles/day19_submission.dir

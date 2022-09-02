@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites errors="0" failures="0" tests="3" name="./Day12_exe-Results.xml" time="2677.640159">
+  <testsuite errors="0" failures="0" tests="3" name="hash_table test suite" time="2677.640156">
+    <testcase classname=".hash_table test suite" name="CUnit Suite init" time="0.000001">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_part2" time="2677.640151">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="CUnit Suite cleanup" time="0.000000">
+    </testcase>
+  </testsuite>
+</testsuites>

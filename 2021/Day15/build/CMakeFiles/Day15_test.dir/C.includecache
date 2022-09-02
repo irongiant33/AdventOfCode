@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/irongiant/AdventOfCode/2021/Day15/include/day15.h
+../../common/common.h
+/home/irongiant/AdventOfCode/2021/common/common.h
+
+/home/irongiant/AdventOfCode/2021/Day15/tests/day15_test.c
+CUnit/Basic.h
+/home/irongiant/AdventOfCode/2021/Day15/tests/CUnit/Basic.h
+../include/day15.h
+/home/irongiant/AdventOfCode/2021/Day15/include/day15.h
+
+/home/irongiant/AdventOfCode/2021/common/common.h
+stdio.h
+-
+stdbool.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+stdint.h
+-
+

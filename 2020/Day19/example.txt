@@ -1,0 +1,63 @@
+0: aa a 5
+a: 2 3 | 3 2
+2: aa aa | 5 5
+3: aa 5 | 5 aa
+aa: "a"
+5: "b"
+
+0: a a b
+a: 2 3 | 3 2
+2: aa | bb
+3: ab | ba
+aa: a
+5: b
+
+0: a a b
+a: aaab | aaba | bbaa | bbba | abaa | abbb | baaa | babb
+2: aa | bb
+3: ab | ba
+aa: a
+5: b
+
+
+'aaaabb', 'aabaab', 'abbabb', 'aaabab', 'abaaab', 'aabbbb', 'abbbab', 'ababbb'
+0: aaaabb | aaabab | abbabb | abbbab | aabaab | aabbbb | abaaab | ababbb
+a: aaab | aaba | bbab | bbba | abaa | abbb | baaa | babb
+2: aa | bb
+3: ab | ba
+aa: a
+5: b
+
+ababbb - MATCH!
+bababa
+abbbab - MATCH!
+aaabbb
+aaaabbb
+
+********************************************************************************
+
+8: 42 | 42 8  => 42 as many times as necessary (at least once)
+11: 42 31 | 42 11 31 => 42, 31 OR (42)*X + 42 + 31 + (31)*X where X is any number of occurence, but must be equal
+0: 8 11
+
+bare minimum:
+42 42 31
+
+so this is the bare minimum (recursive) case
+42 42 42 31 31
+
+breaking it down
+  8        11
+(42) (42 (42 31) 31)
+
+this will not work:
+
+42 42 31 31
+
+because the first 42 is used by rule 8, then 42 31 31 does not match rule 11.
+
+so maybe you could do a regex? 
+
+42 occurs 1 more time than 31, in that order?
+
+

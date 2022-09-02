@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libDay7_submission.so -o libDay7_submission.so CMakeFiles/Day7_submission.dir/src/day7.c.o 

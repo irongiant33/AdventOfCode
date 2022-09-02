@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites errors="0" failures="0" tests="6" name="./Day9_exe-Results.xml" time="1.403242">
+  <testsuite errors="0" failures="0" tests="6" name="hash_table test suite" time="1.403232">
+    <testcase classname=".hash_table test suite" name="CUnit Suite init" time="0.000004">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_part1_example" time="0.003051">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_part1" time="0.197044">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_part2_example" time="0.005532">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_part2" time="1.196067">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="CUnit Suite cleanup" time="0.000003">
+    </testcase>
+  </testsuite>
+</testsuites>

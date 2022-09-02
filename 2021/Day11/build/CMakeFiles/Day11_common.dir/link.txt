@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libDay11_common.so -o libDay11_common.so CMakeFiles/Day11_common.dir/home/irongiant/AdventOfCode/2021/common/fileio.c.o CMakeFiles/Day11_common.dir/home/irongiant/AdventOfCode/2021/common/doubly_ll.c.o CMakeFiles/Day11_common.dir/home/irongiant/AdventOfCode/2021/common/hash_table.c.o 

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libDay5_submission.so -o libDay5_submission.so CMakeFiles/Day5_submission.dir/src/day5.c.o 

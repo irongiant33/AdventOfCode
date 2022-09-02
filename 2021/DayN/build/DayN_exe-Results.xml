@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites errors="0" failures="0" tests="8" name="./DayN_exe-Results.xml" time="0.000789">
+  <testsuite errors="0" failures="0" tests="8" name="hash_table test suite" time="0.000788">
+    <testcase classname=".hash_table test suite" name="CUnit Suite init" time="0.000001">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_fileio_no_delimiter_no_end" time="0.000459">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_fileio_no_delimiter_end" time="0.000052">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_fileio_one_delimiter_no_end" time="0.000046">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_fileio_one_delimiter_end" time="0.000029">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_fileio_two_delimiters_no_end" time="0.000090">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_fileio_two_delimiters_end" time="0.000052">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="CUnit Suite cleanup" time="0.000001">
+    </testcase>
+  </testsuite>
+</testsuites>

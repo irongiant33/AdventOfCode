@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/day23_exe.dir/tests/main_tests.c.o CMakeFiles/day23_exe.dir/src/day23.c.o  -o day23_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day23/build libday23_submission.so libday23_test.so libday23_common.so -lcunit 

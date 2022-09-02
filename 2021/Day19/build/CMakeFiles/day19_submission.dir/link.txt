@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libday19_submission.so -o libday19_submission.so CMakeFiles/day19_submission.dir/src/day19.c.o 

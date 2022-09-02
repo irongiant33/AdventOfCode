@@ -1,0 +1,6 @@
+/home/irongiant/AdventOfCode/2021/Day8/build/CMakeFiles/rebuild_cache.dir
+/home/irongiant/AdventOfCode/2021/Day8/build/CMakeFiles/edit_cache.dir
+/home/irongiant/AdventOfCode/2021/Day8/build/CMakeFiles/Day8_exe.dir
+/home/irongiant/AdventOfCode/2021/Day8/build/CMakeFiles/Day8_common.dir
+/home/irongiant/AdventOfCode/2021/Day8/build/CMakeFiles/Day8_test.dir
+/home/irongiant/AdventOfCode/2021/Day8/build/CMakeFiles/Day8_submission.dir

@@ -1,0 +1,6 @@
+/home/irongiant/AdventOfCode/2021/Day4/build/CMakeFiles/rebuild_cache.dir
+/home/irongiant/AdventOfCode/2021/Day4/build/CMakeFiles/edit_cache.dir
+/home/irongiant/AdventOfCode/2021/Day4/build/CMakeFiles/Day4_exe.dir
+/home/irongiant/AdventOfCode/2021/Day4/build/CMakeFiles/Day4_common.dir
+/home/irongiant/AdventOfCode/2021/Day4/build/CMakeFiles/Day4_test.dir
+/home/irongiant/AdventOfCode/2021/Day4/build/CMakeFiles/Day4_submission.dir

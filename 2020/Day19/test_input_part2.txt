@@ -1,0 +1,47 @@
+1: ['a']
+14: ['b']
+19: ['ba', 'bb']
+6: ['bb', 'ab']
+15: ['a', 'b']
+4: ['aa']
+20: ['bb', 'aa', 'ab']
+21: ['ba', 'ab']
+25: ['aa', 'ab']
+22: ['bb']
+26: ['bbb', 'abb', 'aaa', 'aab']
+18: ['aa', 'ba', 'ab', 'bb']
+24: ['ba']
+5: ['ab', 'aa', 'ba']
+12: ['bab', 'baa', 'bba']
+16: ['aa', 'bb', 'ba']
+2: ['aba', 'baa']
+23: ['aaa', 'bbb', 'aba']
+28: ['aaa', 'bba', 'baa']
+3: ['abb', 'aaa', 'aab', 'bab', 'bba', 'baa']
+27: ['abb', 'baa', 'aab', 'bba', 'bab', 'bbb']
+7: ['bab', 'aba', 'aab', 'baa', 'bba']
+9: ['babb', 'abbb', 'aabb', 'aaaa', 'aaab', 'bbaa', 'baab', 'bbba', 'bbab', 'bbbb']
+10: ['aaab', 'aaaa', 'bbbb', 'abab', 'bbaa', 'baaa']
+13: ['babb', 'abab', 'abaa', 'abba', 'baaa', 'baab', 'bbab', 'bbba', 'bbaa']
+17: ['baba', 'abab', 'bbaa', 'aaba', 'aaab', 'abaa', 'abba']
+42: ['babbb', 'aaaba', 'abbbb', 'aabbb', 'aaaab', 'aaabb', 'bbaab', 'baabb', 'bbbab', 'bbabb', 'bbbbb', 'aaaaa', 'bbbba', 'ababa', 'bbaaa', 'baaaa']
+31: ['bbaba', 'ababb', 'babab', 'bbbaa', 'baaba', 'baaab', 'babaa', 'babba', 'aabab', 'aabaa', 'aabba', 'abaaa', 'abaab', 'abbab', 'abbba', 'abbaa']
+11: 42 31
+8: 42
+0: 8 11
+
+abbbbbabbbaaaababbaabbbbabababbbabbbbbbabaaaa
+bbabbbbaabaabba
+babbbbaabbbbbabbbbbbaabaaabaaa
+aaabbbbbbaaaabaababaabababbabaaabbababababaaa
+bbbbbbbaaaabbbbaaabbabaaa
+bbbababbbbaaaaaaaabbababaaababaabab
+ababaaaaaabaaab
+ababaaaaabbbaba
+baabbaaaabbaaaababbaababb
+abbbbabbbbaaaababbbbbbaaaababb
+aaaaabbaabaaaaababaa
+aaaabbaaaabbaaa
+aaaabbaabbaaaaaaabbbabbbaaabbaabaaa
+babaaabbbaaabaababbaabababaaab
+aabbbbbaabbbaaaaaabbbbbababaaaaabbaaabba

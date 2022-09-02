@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites errors="0" failures="1" tests="3" name="./day17_exe-Results.xml" time="0.002828">
+  <testsuite errors="0" failures="1" tests="3" name="hash_table test suite" time="0.002819">
+    <testcase classname=".hash_table test suite" name="CUnit Suite init" time="0.000003">
+    </testcase>
+    <testcase classname=".hash_table test suite" name="test_part1_example" time="0.001553">
+      <failure>File: /home/irongiant/AdventOfCode/2021/Day17/tests/day17_test.c
+Line: 10
+Assertion Failed:
+Condition: 'CU_ASSERT_EQUAL(test_part1,17)'
+
+</failure>
+    </testcase>
+    <testcase classname=".hash_table test suite" name="CUnit Suite cleanup" time="0.000003">
+    </testcase>
+  </testsuite>
+</testsuites>

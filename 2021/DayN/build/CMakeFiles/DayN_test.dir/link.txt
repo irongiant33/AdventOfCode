@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libDayN_test.so -o libDayN_test.so CMakeFiles/DayN_test.dir/tests/dayN_test.c.o 

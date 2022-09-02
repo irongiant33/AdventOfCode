@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Day4_exe.dir/tests/main_tests.c.o CMakeFiles/Day4_exe.dir/src/day4.c.o  -o Day4_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day4/build libDay4_submission.so libDay4_test.so libDay4_common.so -lcunit 

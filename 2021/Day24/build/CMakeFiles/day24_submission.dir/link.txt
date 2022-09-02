@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libday24_submission.so -o libday24_submission.so CMakeFiles/day24_submission.dir/src/day24.c.o 

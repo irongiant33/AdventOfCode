@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libDay9_submission.so -o libDay9_submission.so CMakeFiles/Day9_submission.dir/src/day9.c.o 

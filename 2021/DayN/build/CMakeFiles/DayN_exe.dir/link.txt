@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/DayN_exe.dir/tests/main_tests.c.o CMakeFiles/DayN_exe.dir/src/dayN.c.o  -o DayN_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/DayN/build libDayN_submission.so libDayN_test.so libDayN_common.so -lcunit 
