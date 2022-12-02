@@ -1,3 +1,9 @@
-# Part One
+# Day 24
 
-# Part Two
+## Part One
+
+## Part Two
+
+## Notes
+
+## Questions

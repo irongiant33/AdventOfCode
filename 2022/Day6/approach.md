@@ -1,3 +1,9 @@
-# Part One
+# Day 6
 
-# Part Two
+## Part One
+
+## Part Two
+
+## Notes
+
+## Questions

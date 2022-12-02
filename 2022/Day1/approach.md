@@ -31,7 +31,7 @@ the destination buffer, which can be slow.
 
 ## Questions
 
-- [ ] What is a good template for using `CMake` with C++?
-- [ ] Can you add `gtest` for a unit testing suite?
+- [x] What is a good template for using `CMake` with C++?
+- [x] Can you add `gtest` for a unit testing suite?
 - [ ] `atoi()` is known as an unsafe function in C, but the compiler will still let you use it. What functions is this true for in C++? is `std::stoi()` OK? `std::to_string()`?
-- [ ] how to properly configure `.hpp` files in the `CMakeLists.txt` so that you don't have to specify relative paths in the `.cpp` files?
+- [x] how to properly configure `.hpp` files in the `CMakeLists.txt` so that you don't have to specify relative paths in the `.cpp` files?

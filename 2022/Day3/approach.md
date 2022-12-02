@@ -1,3 +1,9 @@
-# Part One
+# Day 3
 
-# Part Two
+## Part One
+
+## Part Two
+
+## Notes
+
+## Questions

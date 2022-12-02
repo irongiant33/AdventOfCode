@@ -1,3 +1,9 @@
-# Part One
+# Day 7
 
-# Part Two
+## Part One
+
+## Part Two
+
+## Notes
+
+## Questions
