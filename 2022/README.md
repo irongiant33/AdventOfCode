@@ -2,6 +2,19 @@
 
 The language of the year will be C++.
 
+Running test for a day:
+
+```
+Usage: ./run_tests.sh <subfolder to execute> [-h | -c "cookie_val"][-f][-y <year_num>]
+        -h print help
+        -c input new cookie
+        -f force update
+        -y year number
+
+Example 1: ./run_tests.sh Day1 -c mySecret_C00K13
+Example 2: ./run_tests.sh 1
+```
+
 ## Improvements from Previous Years
 
 - [ ] [Automatically grab the problem and input from the website](#auto-fetch-problem-and-input)
