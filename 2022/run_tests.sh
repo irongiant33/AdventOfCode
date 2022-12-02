@@ -19,6 +19,7 @@ INPUT_SUFFIX="/src/input.txt"
 PROBLEM_SUFFIX="/problem.md"
 NUM_ARGS=0
 YEAR=2022
+USER_AGENT="https://github.com/irongiant33/AdventOfCode"
 
 # parse command arguments
 if [ $# -lt 1 ]
@@ -101,7 +102,7 @@ fi
 # fetch the problem input and save it
 if [[ ! -f "$INPUT_FILE" || ! -z $FORCE_UPDATE ]]
 then
-    curl "https://adventofcode.com/$YEAR/day/$DAY_NUM/input" -H "cookie: $COOKIE" > "$INPUT_FILE"
+    curl "https://adventofcode.com/$YEAR/day/$DAY_NUM/input" -H "cookie: $COOKIE" -A "$USER_AGENT" > "$INPUT_FILE"
 else
     echo "Input at $INPUT_FILE already exists"
 fi
@@ -109,7 +110,7 @@ fi
 # fetch the problem statement and save it
 if [[ ! -f "$PROBLEM_FILE" || ! -z $FORCE_UPDATE ]]
 then
-    curl -s "https://adventofcode.com/$YEAR/day/$DAY_NUM" -H "cookie: $COOKIE" | pandoc -f html -t markdown_strict > "$PROBLEM_FILE"
+    curl -s "https://adventofcode.com/$YEAR/day/$DAY_NUM" -H "cookie: $COOKIE" -A "$USER_AGENT" | pandoc -f html -t markdown_strict > "$PROBLEM_FILE"
 else
     echo "Input at $PROBLEM_FILE already exists"
 fi
