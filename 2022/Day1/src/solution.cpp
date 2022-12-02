@@ -1,10 +1,15 @@
-#include <fstream>
-#include <iostream>
-#include <algorithm>
+#include "solution.hpp"
 using namespace std;
 
 #define DEBUG(x);
 
+/*
+@brief solve part 1 of advent of code
+
+@param filename: file to read the input from
+
+@return max_calories: maximum number of calories an elf is carrying
+*/
 int part1(std::string filename)
 {
     // open a file in read mode.
@@ -44,14 +49,22 @@ int part1(std::string filename)
     cout << "Part 1: The maximum number of calories carried by an elf is ";
     cout << std::to_string(max_calories) << endl;
 
-    return 0;
+    return max_calories;
 }
 
+/*
+@brief solve part 2 of advent of code
+
+@param filename: filename to read input from
+@param top_n: number of elves from which to create the sum. Should be less than the total number of elves.
+
+@return top_total: total number of calories for the top_n elves
+*/
 int part2(std::string filename, int top_n)
 {
     // open a file in read mode.
     ifstream infile; 
-    infile.open("input.txt"); 
+    infile.open(filename); 
 
     int num_elves = 1000;
     int elf_calories[num_elves];
@@ -87,10 +100,10 @@ int part2(std::string filename, int top_n)
         top_total += elf_calories[i];
     }
 
-    cout << "Part 2: The total of the top 3 elves is ";
+    cout << "Part 2: The total of the top " << std::to_string(top_n) << " elves is ";
     cout << std::to_string(top_total) << endl;
 
-    return 0;
+    return top_total;
 }
 
 int main ()

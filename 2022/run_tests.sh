@@ -114,3 +114,11 @@ then
 else
     echo "Input at $PROBLEM_FILE already exists"
 fi
+
+cd "Day$DAY_NUM"
+rm -rf build 2>/dev/null
+mkdir build
+cmake -S . -B build
+cmake --build build
+cd build && ctest
+cd ../..
