@@ -93,13 +93,13 @@ def part2():
     return sum
 
 if __name__=="__main__":
-    with open("day3.txt") as infile:
+    with open("input.txt") as infile:
         for line in infile:
             grid.append(list(line.rstrip()))
     part1_ans = part1()
     print(f"The answer to part 1 is: {part1_ans}")
    
-    with open("day3.txt") as infile:
+    with open("input.txt") as infile:
         for line in infile:
             grid.append(list(line.rstrip()))
     part2_ans = part2()

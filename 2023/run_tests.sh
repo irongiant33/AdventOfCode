@@ -132,5 +132,5 @@ fi
 
 cd "Day$DAY_NUM"
 cp ../py_tests.sh .
-bash py_tests.sh $YEAR $DAY_NUM
+#bash py_tests.sh $YEAR $DAY_NUM $COOKIE $USER_AGENT
 cd ..

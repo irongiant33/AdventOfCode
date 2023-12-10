@@ -1,4 +1,4 @@
-# Advent of Code 2022
+# Advent of Code 2023
 
 The language of the year will be Python (again - last time I did Python was 2020). Hoping to just have some fun and solve the puzzles this year. Maybe I'll go back and re-solve all the puzzles with a new language!
 
