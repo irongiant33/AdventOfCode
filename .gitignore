@@ -1,3 +1,4 @@
 **cookie.txt
-**build
+build/
 **.txt
+**CMakeFiles/*
