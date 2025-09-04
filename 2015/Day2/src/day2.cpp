@@ -174,7 +174,7 @@ int main(int argc, char * argv[])
 		cout << "test passed.\n";
 	}
 	ifstream file(argv[1]);
-	deque <string> * input_lines = new deque<string>();
+	deque <string> * input_lines = new deque<string>;
 	string line = "";
 	getline(file, line, '\n');
 	if(DEBUG)
