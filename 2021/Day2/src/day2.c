@@ -26,23 +26,24 @@ part1(char * filename)
     puzzle_input_t * puzzle_input = read_file(filename, delimiters, 2, NULL);
 
     //solve part 1
+    printf("solving\n");
     long x_pos = 0;
     long depth = 0;
-    for(int i = 0; i < puzzle_input->num_items; i+=2)
+    for(int i = 2; i < puzzle_input->num_items; i+=2)
     {
         char * end_ptr;
-        long movement_amount = strtol(puzzle_input->puzzle_items[i + 1]->char_val, &end_ptr, 10);
-        if (errno != 0) {
+        long movement_amount = strtol(puzzle_input->puzzle_items[i - 1]->char_val, &end_ptr, 10);
+	if (errno != 0) {
             perror("strtol");
             return ERROR;
         }
 
-        if (end_ptr == puzzle_input->puzzle_items[i + 1]->char_val) {
+        if (end_ptr == puzzle_input->puzzle_items[i - 1]->char_val) {
             fprintf(stderr, "No digits were found\n");
             return ERROR;
         }
 
-        switch (puzzle_input->puzzle_items[i]->char_val[0])
+        switch (puzzle_input->puzzle_items[i - 2]->char_val[0])
         {
         case 'f':
             x_pos = x_pos + movement_amount;
@@ -98,21 +99,21 @@ part2(char * filename)
     long x_pos = 0;
     long depth = 0;
     long aim = 0;
-    for(int i = 0; i < puzzle_input->num_items; i+=2)
+    for(int i = 2; i < puzzle_input->num_items; i+=2)
     {
         char * end_ptr;
-        long movement_amount = strtol(puzzle_input->puzzle_items[i + 1]->char_val, &end_ptr, 10);
+        long movement_amount = strtol(puzzle_input->puzzle_items[i - 1]->char_val, &end_ptr, 10);
         if (errno != 0) {
             perror("strtol");
             return ERROR;
         }
 
-        if (end_ptr == puzzle_input->puzzle_items[i + 1]->char_val) {
+        if (end_ptr == puzzle_input->puzzle_items[i - 1]->char_val) {
             fprintf(stderr, "No digits were found\n");
             return ERROR;
         }
 
-        switch (puzzle_input->puzzle_items[i]->char_val[0])
+        switch (puzzle_input->puzzle_items[i - 2]->char_val[0])
         {
         case 'f':
             x_pos = x_pos + movement_amount;

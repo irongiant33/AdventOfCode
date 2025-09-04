@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Day1_exe.dir/src/day1.c.o"
+  "CMakeFiles/Day1_exe.dir/src/day1.c.o.d"
   "CMakeFiles/Day1_exe.dir/tests/main_tests.c.o"
+  "CMakeFiles/Day1_exe.dir/tests/main_tests.c.o.d"
   "Day1_exe"
   "Day1_exe.pdb"
 )

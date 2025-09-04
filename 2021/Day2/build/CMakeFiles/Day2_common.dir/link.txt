@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC   -shared -Wl,-soname,libDay2_common.so -o libDay2_common.so CMakeFiles/Day2_common.dir/home/irongiant/AdventOfCode/2021/common/fileio.c.o 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libDay2_common.so -o libDay2_common.so CMakeFiles/Day2_common.dir/home/irongiant/Documents/AdventOfCode/2021/common/fileio.c.o 

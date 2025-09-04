@@ -1,6 +1,6 @@
-/home/irongiant/AdventOfCode/2021/Day2/build/CMakeFiles/rebuild_cache.dir
-/home/irongiant/AdventOfCode/2021/Day2/build/CMakeFiles/edit_cache.dir
-/home/irongiant/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_exe.dir
-/home/irongiant/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_common.dir
-/home/irongiant/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_test.dir
-/home/irongiant/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_submission.dir
+/home/irongiant/Documents/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_submission.dir
+/home/irongiant/Documents/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_test.dir
+/home/irongiant/Documents/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_common.dir
+/home/irongiant/Documents/AdventOfCode/2021/Day2/build/CMakeFiles/Day2_exe.dir
+/home/irongiant/Documents/AdventOfCode/2021/Day2/build/CMakeFiles/edit_cache.dir
+/home/irongiant/Documents/AdventOfCode/2021/Day2/build/CMakeFiles/rebuild_cache.dir

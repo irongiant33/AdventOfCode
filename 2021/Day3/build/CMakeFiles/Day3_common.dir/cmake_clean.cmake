@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Day3_common.dir/home/irongiant/AdventOfCode/2021/common/doubly_ll.c.o"
-  "CMakeFiles/Day3_common.dir/home/irongiant/AdventOfCode/2021/common/fileio.c.o"
+  "CMakeFiles/Day3_common.dir/home/irongiant/Documents/AdventOfCode/2021/common/doubly_ll.c.o"
+  "CMakeFiles/Day3_common.dir/home/irongiant/Documents/AdventOfCode/2021/common/doubly_ll.c.o.d"
+  "CMakeFiles/Day3_common.dir/home/irongiant/Documents/AdventOfCode/2021/common/fileio.c.o"
+  "CMakeFiles/Day3_common.dir/home/irongiant/Documents/AdventOfCode/2021/common/fileio.c.o.d"
   "libDay3_common.pdb"
   "libDay3_common.so"
 )

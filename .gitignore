@@ -1,4 +1,4 @@
 **cookie.txt
-build/
 **.txt
-**CMakeFiles/*
+**.pyc
+build/

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Day1_common.dir/home/irongiant/AdventOfCode/2021/common/fileio.c.o"
+  "CMakeFiles/Day1_common.dir/home/irongiant/Documents/AdventOfCode/2021/common/fileio.c.o"
+  "CMakeFiles/Day1_common.dir/home/irongiant/Documents/AdventOfCode/2021/common/fileio.c.o.d"
   "libDay1_common.pdb"
   "libDay1_common.so"
 )

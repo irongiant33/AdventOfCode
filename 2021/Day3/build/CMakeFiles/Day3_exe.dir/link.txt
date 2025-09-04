@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/Day3_exe.dir/tests/main_tests.c.o CMakeFiles/Day3_exe.dir/src/day3.c.o  -o Day3_exe  -Wl,-rpath,/home/irongiant/AdventOfCode/2021/Day3/build libDay3_submission.so libDay3_test.so libDay3_common.so -lcunit 
+/usr/bin/cc CMakeFiles/Day3_exe.dir/tests/main_tests.c.o CMakeFiles/Day3_exe.dir/src/day3.c.o -o Day3_exe  -Wl,-rpath,/home/irongiant/Documents/AdventOfCode/2021/Day3/build libDay3_submission.so libDay3_test.so libDay3_common.so -lcunit 
