@@ -7,9 +7,9 @@
 -   [\[Settings\]](/2015/settings)
 -   [\[Log Out\]](/2015/auth/logout)
 
-irongiant33 <span class="star-count">11\*</span>
+irongiant33 <span class="star-count">12\*</span>
 
-#   <span class="title-event-wrap">{:year </span>[2015](/2015)<span class="title-event-wrap">}</span>
+#    <span class="title-event-wrap">&lt;y&gt;</span>[2015](/2015)<span class="title-event-wrap">&lt;/y&gt;</span>
 
 -   [\[Calendar\]](/2015)
 -   [\[AoC++\]](/2015/support)
@@ -54,8 +54,6 @@ After following the instructions, *how many lights are lit*?
 
 Your puzzle answer was `569999`.
 
-The first half of this puzzle is complete! It provides one gold star: \*
-
 ## --- Part Two ---
 
 You just finish implementing your winning light pattern when you realize
@@ -84,16 +82,22 @@ For example:
 -   `toggle 0,0 through 999,999` would increase the total brightness by
     `2000000`.
 
-Answer:
+Your puzzle answer was `17836115`.
 
-Although it hasn't changed, you can still
+Both parts of this puzzle are complete! They provide two gold stars:
+\*\*
+
+At this point, you should [return to your Advent calendar](/2015) and
+try another puzzle.
+
+If you still want to see it, you can
 <a href="6/input" target="_blank">get your puzzle input</a>.
 
 You can also <span class="share">\[Share<span class="share-content">on
 <a
-href="https://bsky.app/intent/compose?text=I%27ve+completed+Part+One+of+%22Probably+a+Fire+Hazard%22+%2D+Day+6+%2D+Advent+of+Code+2015+%23AdventOfCode+https%3A%2F%2Fadventofcode%2Ecom%2F2015%2Fday%2F6"
+href="https://bsky.app/intent/compose?text=I%27ve+completed+%22Probably+a+Fire+Hazard%22+%2D+Day+6+%2D+Advent+of+Code+2015+%23AdventOfCode+https%3A%2F%2Fadventofcode%2Ecom%2F2015%2Fday%2F6"
 target="_blank">Bluesky</a> <a
-href="https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Probably+a+Fire+Hazard%22+%2D+Day+6+%2D+Advent+of+Code+2015&amp;url=https%3A%2F%2Fadventofcode%2Ecom%2F2015%2Fday%2F6&amp;related=ericwastl&amp;hashtags=AdventOfCode"
+href="https://twitter.com/intent/tweet?text=I%27ve+completed+%22Probably+a+Fire+Hazard%22+%2D+Day+6+%2D+Advent+of+Code+2015&amp;url=https%3A%2F%2Fadventofcode%2Ecom%2F2015%2Fday%2F6&amp;related=ericwastl&amp;hashtags=AdventOfCode"
 target="_blank">Twitter</a> <a href="javascript:void(0);"
-onclick="var ms; try{ms=localStorage.getItem(&#39;mastodon.server&#39;)}finally{} if(typeof ms!==&#39;string&#39;)ms=&#39;&#39;; ms=prompt(&#39;Mastodon Server?&#39;,ms); if(typeof ms===&#39;string&#39; &amp;&amp; ms.length){this.href=&#39;https://&#39;+ms+&#39;/share?text=I%27ve+completed+Part+One+of+%22Probably+a+Fire+Hazard%22+%2D+Day+6+%2D+Advent+of+Code+2015+%23AdventOfCode+https%3A%2F%2Fadventofcode%2Ecom%2F2015%2Fday%2F6&#39;;try{localStorage.setItem(&#39;mastodon.server&#39;,ms);}finally{}}else{return false;}"
+onclick="var ms; try{ms=localStorage.getItem(&#39;mastodon.server&#39;)}finally{} if(typeof ms!==&#39;string&#39;)ms=&#39;&#39;; ms=prompt(&#39;Mastodon Server?&#39;,ms); if(typeof ms===&#39;string&#39; &amp;&amp; ms.length){this.href=&#39;https://&#39;+ms+&#39;/share?text=I%27ve+completed+%22Probably+a+Fire+Hazard%22+%2D+Day+6+%2D+Advent+of+Code+2015+%23AdventOfCode+https%3A%2F%2Fadventofcode%2Ecom%2F2015%2Fday%2F6&#39;;try{localStorage.setItem(&#39;mastodon.server&#39;,ms);}finally{}}else{return false;}"
 target="_blank">Mastodon</a></span>\]</span> this puzzle.
